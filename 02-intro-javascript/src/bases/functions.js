@@ -8,9 +8,8 @@ function sayHello( name ){
 console.log(sayHello('John'));
 
 //* Arrow functions
-const sayHelloByName = (name) => {
-    return(`Hello ${name}`);
-}
+const sayHelloByName = (name) => `Hello ${name}`;
+
 
 console.log(sayHelloByName('John'));
 
@@ -18,7 +17,7 @@ const getUser = () => {
     return{
         uuid: '123',
         name: 'John',
-        age: 30
+        age: 26
     }
 }
 
